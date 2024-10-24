@@ -5,8 +5,8 @@ public class Main {
 
         int releaseYear = 2022;
         System.out.println("Ano de lançamento: " + releaseYear);
-        boolean includedInPlan = true;
-        double movieRating = 8.1;
+        /*boolean includedInPlan = true;
+        double movieRating = 8.1;*/
 
         double media = (9.8 + 6.3 + 8.0) / 3;
         System.out.println(media);
