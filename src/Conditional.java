@@ -1,8 +1,8 @@
 public class Conditional {
     public static void main(String[] args) {
-        int releaseYear = 1986;
+        int releaseYear = 2024;
         boolean includedInPlan = true;
-        double movieRating = 8.1;
+        //double movieRating = 8.1;
         String planType = "Plus";
 
         //Condicional if/else
@@ -12,7 +12,7 @@ public class Conditional {
             System.out.println("Filme retrô que vale a pena!");
         }
 
-        if (includedInPlan == true && planType.equals("Plus")) {
+        if (includedInPlan && planType.equals("Plus")) {
             System.out.println("Filme liberado!");
         } else {
             System.out.println("Deve pagar a locação!");
